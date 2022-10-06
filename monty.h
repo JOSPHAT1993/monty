@@ -47,4 +47,5 @@ void free_stack(stack_t *head);
 void push(stack_t **stack, unsigned int line_number);
 int is_int(char *str);
 void pall(stack_t **stack, unsigned int line_number);
+void pint(stack_t **stack, unsigned int line_number);
 #endif

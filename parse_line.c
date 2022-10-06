@@ -30,6 +30,8 @@ instruction_t *parse_line(char *line)
 			instruction->f = push;
 		if (strcmp(instruction->opcode, "pall") == 0)
 			instruction->f = pall;
+		if (strcmp(instruction->opcode, "pint") == 0)
+			instruction->f = pint;
 	}
 
 	return (instruction);
